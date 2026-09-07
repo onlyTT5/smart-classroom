@@ -1,0 +1,11 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "gec-esp32s3-board",
+            "sdkconfig_append": [
+                "CONFIG_USE_DEVICE_AEC=y"
+            ]
+        }
+    ]
+}
